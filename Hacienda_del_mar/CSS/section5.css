@@ -1,0 +1,221 @@
+*{
+    font-family: "EBGaramond-Regular",serif;
+}
+
+.room-title {
+    color: #072942;
+    text-align: center;
+    font-family: "Roboto-Thin",sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 35px;
+    text-transform: uppercase;
+    & span{
+        font-family: "EBGaramond-Regular",serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 25px;
+    }
+}
+.txtRoom{
+    font-family: "EBGaramond-Regular";
+    font-size: 1.0625rem;
+    line-height: 1.75rem;
+    letter-spacing: 0;
+    color: #232629;
+    width: 60%;
+    margin: 0;
+    margin-bottom: 4.5%;
+    text-align: center;
+}
+
+.club-slider.slick-initialized.slick-slider > .slick-prev, .club-slider.slick-initialized.slick-slider > .slick-next {
+    top: 15vw!important;
+    color: #001d3d;
+    z-index: 10;
+}
+.club-slider.slick-initialized.slick-slider > .slick-prev{
+    left: 30vw!important;
+}
+.club-slider.slick-initialized.slick-slider > .slick-next{
+    right: 32vw!important;
+}
+
+
+/* Espaciado entre imágenes */
+.club-slider.slick-initialized.slick-slider > .slick-list > .slick-track > .slick-slide {
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .sectionRoom {
+    padding: 40px 20px;
+    }
+
+
+    .habitaciones-label {
+    display: none;
+    }
+    .txtRoom{
+    width: 90%;
+    }
+}
+main#main > .standard-content-width {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.contentBtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnRooms{
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    background: #DD9E76;
+    color: #072942;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.sectionClub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.sliderClub{
+    width: 100%;
+    position: relative;
+}
+.txtClub1{
+    margin: 0;
+    color: #072942;
+    text-align: center;
+    line-height: 115%;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.txtClub2{
+    margin: 0;
+    color: #072942;
+    line-height: 115%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1%;
+}
+.mt3{
+    margin-top: 3%!important;
+}
+.mt5{
+    margin-top: 5%!important;
+}
+.mb5{
+    margin-bottom: 5%!important;
+}
+.mb3{
+    margin-bottom: 3%!important;
+}
+
+.shadowSlide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, #00000000 0%, #00000099 100%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.shadowSlide p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto-Thin",sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 4px;
+    margin-bottom: 6%;
+    text-transform: uppercase;
+}
+
+
+@media (max-width:1300px) {
+    
+}
+@media (max-width:990px) {
+
+    .room-title{
+        font-size: 30px;
+    }
+    .habitaciones-label{
+        font-size: 2rem;
+    }
+    .btnRooms{
+    font-size: 16px!important;
+    }
+    .imgRooms{
+        height: 222px!important;
+    }
+    .imgClub{
+    height: 255px!important;
+    }
+}
+@media (max-width:780px) {
+
+
+.room-title{
+    text-align: center;
+    font-size: 30px;
+}
+.imgRooms{
+        height: 55vw!important;
+    }
+    .imgClub{
+        height: 65vw!important;
+    }
+    .club-slider.slick-initialized.slick-slider > .slick-prev {
+        left: auto !important;
+        right: 50vw !important;
+        top: 67vw;
+        display: none!important;
+    }
+    .club-slider.slick-initialized.slick-slider > .slick-next {
+        right: 40vw !important;
+        top: 67vw;
+        display: none!important;
+    }
+    .txtClub1{
+        font-size: 25px;
+    }
+    .boxRest{
+    flex-direction: column;
+    }
+    .imgRest {
+        width: 90%!important;
+    }
+    .contentTxtRest {
+    width: 90%!important;
+}
+.leftBox {
+    flex-direction: column!important;
+}
+.txtRest1{
+    font-size: 28px!important;
+}
+}
+.club-slider.slick-initialized.slick-slider > .slick-prev:before, .slick-next:before{
+    display: none;
+}
