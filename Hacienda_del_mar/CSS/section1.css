@@ -1,0 +1,132 @@
+body {
+margin: 0;
+}
+main#main > .standard-content-width {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.main-content {
+position: relative;
+padding: 3.5rem 0rem 2rem 0rem;
+padding-bottom: 0; 
+}
+
+.main-content h2 {
+text-align: center;
+margin: 0;
+margin-bottom: 1.5rem;
+color: #072942;
+font-family: "Roboto-Thin",sans-serif;
+font-size: 40px;
+font-weight: 300;
+}
+.main-content h2 > span {
+font-family: "EBGaramond-Regular",serif;
+font-size: 40px;
+font-weight: 500;
+}
+
+.content-wrapper {
+max-width: 50rem; 
+margin-left: auto;
+margin-right: auto;
+color: #4a5568; 
+padding-bottom: 2rem; 
+}
+
+.content-wrapper p {
+color: #232629;
+text-align: center;
+font-weight: 400;
+font-family: "EBGaramond-Regular",serif;
+font-size: 15px;
+line-height: 22px;
+}
+.decoWelcome{
+position: absolute;
+top: 0;
+left: 0;
+width: 4%;
+}
+.decoWelcome2{
+position: absolute;
+top: 45%;
+right: 0%;
+width: 4%;
+rotate: 180deg;
+}
+.contentSliderOne{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.contentSliderOne img{
+    width: 75%;
+    height: auto;
+}
+.contBtnBlue{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .btnBlue{
+    display: inline-flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #072942;
+    background-color: #072942;
+    font-family: "EBGaramond-Regular",serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+@media (min-width:1600px){
+    .content-wrapper {
+    max-width: 70rem; 
+    }
+}
+
+@media (max-width:990px) {
+    .main-content {
+        padding: 3.5rem 2rem 2rem 2rem;
+        padding-bottom: 5%;
+    }
+    .contentSliderOne img {
+        width: 90%;
+        height: auto;
+    }
+    .main-content h2, .main-content h2 > span{
+        font-size: 30px;
+    }
+    .content-wrapper{
+        max-width: 90%;
+    }
+    .decoWelcome, .decoWelcome2{
+            width: 7%;
+    }
+}
+@media (max-width:780px) {
+    .main-content h2, .main-content h2 > span{
+        font-size: 27px;
+    }
+    .content-wrapper p{
+        font-size: 15px;
+    }
+    .content-wrapper{
+        max-width: 100%;
+    }
+    .contentSliderOne img {
+        width: 100%;
+        height: auto;
+    }
+}
