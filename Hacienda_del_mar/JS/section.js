@@ -1,4 +1,4 @@
-$('.habitaciones-slider').slick({
+$('.firstSlider').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
