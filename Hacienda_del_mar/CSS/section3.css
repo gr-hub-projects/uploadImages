@@ -41,7 +41,7 @@
 }
 .contentTxtOffer{
     width: auto;
-    height: 441px;
+    height: auto;
     padding: 5% 0%;
     background: #072942;
     display: flex;
@@ -154,4 +154,5 @@ height: 286px;
     }
 
 }
+
    
