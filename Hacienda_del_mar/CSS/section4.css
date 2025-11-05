@@ -43,7 +43,7 @@
 width: 100%;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: flex-start!important;
 }
 .btnOffer{
 display: inline-flex;
@@ -98,4 +98,5 @@ text-decoration: none;
         width: 100%;
         margin-top: 5%;
     }
+
 }
