@@ -111,7 +111,7 @@
     }
 
 }
-.standard-content-width {
+main#main > .standard-content-width, section.sectionClub {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -240,4 +240,5 @@
 
 .habitaciones-slider > .slick-prev:before, .slick-next:before{
     display: none;
+
 }
