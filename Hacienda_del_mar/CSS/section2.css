@@ -41,7 +41,7 @@
     color: #232629;
     text-align: center;
     font-family: "EBGaramond-Regular",serif;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 20px;
     margin: 0;
@@ -69,10 +69,10 @@
 }
 .habitaciones-slider > .slick-prev{
     left: auto!important;
-    right: 42vw!important;
+    right: 45vw!important;
 }
 .habitaciones-slider > .slick-next{
-    right: 18vw!important;
+    right: 25.5vw!important;
 }
 
 .habitaciones-slider > .slick-list > .slick-track > .slick-slide {
@@ -94,10 +94,10 @@
     font-weight: 300;
     line-height: normal;
     text-transform: uppercase;
-    margin: 2% auto 0% auto;
-    width: 35%;
+    margin: 2% auto 0% -4%;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -158,9 +158,9 @@ main#main > .standard-content-width, section.sectionClub {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: auto;
     margin-left: 4%;
-    padding: 10px;
+    padding: 10px 15px;
     margin: auto;
     align-self: stretch;
     text-decoration: none;
@@ -168,7 +168,7 @@ main#main > .standard-content-width, section.sectionClub {
     color: #935938;
     text-align: center;
     font-family: "EBGaramond-Regular",serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -242,4 +242,5 @@ main#main > .standard-content-width, section.sectionClub {
     display: none;
 
 }
+
 
