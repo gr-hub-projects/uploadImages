@@ -76,13 +76,13 @@ text-decoration: none;
 }
 .contXplorTxt{
     width: 47%;
-    padding-right: 10%;
+    padding-right: 12%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .contXplorImg{
-    width: 50%;
+    width: 49%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
