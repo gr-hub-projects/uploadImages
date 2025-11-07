@@ -40,11 +40,11 @@
     line-height: 23px;
     text-align: center;
 }
-.contentBtnOffer{
+.colTxtWed > .contentBtnOffer{
 width: 100%;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: flex-start !important;
 }
 .btnOffer{
 display: inline-flex;
@@ -101,5 +101,6 @@ text-decoration: none;
         margin-top: 5%;
     }
 }
+
 
 
