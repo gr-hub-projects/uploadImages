@@ -119,11 +119,15 @@ main#main > .standard-content-width {
     }
 }
 @media (max-width:520px) {
-    .txtSectionUno{
+    .txtSectionUno, .txtSectionDos{
         font-size: 27px;
+    }
+    .txt3SectionDos{
+        font-size: 22px;
     }
     .brBlock{
         display: block;
     }
 }
+
 
