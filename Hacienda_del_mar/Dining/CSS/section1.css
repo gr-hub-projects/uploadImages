@@ -23,7 +23,7 @@ main#main > .standard-content-width {
     width: 40%;
 }
 .col-imgDos{
-    width: max-content;
+    width: 42%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,3 +76,4 @@ main#main > .standard-content-width {
     }
 
 }
+
