@@ -1,3 +1,7 @@
 .imgDoubleCard{
     height: 311px!important;
+
+}
+.centerBtnCard{
+    justify-content: center!important;
 }
