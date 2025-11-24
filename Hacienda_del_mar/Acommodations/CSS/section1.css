@@ -7,7 +7,9 @@
     letter-spacing: 1.04px;
     text-transform: uppercase;
     & span{
+        font-family: "EBGaramond-Regular", serif;
         font-style: italic;
-        font-weight: 500;
+        font-weight: 600;
     }
 }
+
