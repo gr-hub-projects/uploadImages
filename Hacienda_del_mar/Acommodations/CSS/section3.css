@@ -21,10 +21,12 @@
 }
 
 .suite-card {
-    border: 1px solid #d8b79a;
     display: grid;
     grid-template-columns: 1fr;
     background: #fff;
+    height: 100%;
+    position: relative;
+    z-index: -1;
 }
 
 .suite-image img {
@@ -38,6 +40,32 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.suite-info::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #a36946;
+    --mask: radial-gradient(5px at 5px 5px, #0000 calc(98% - 1px), #000 calc(100% - 1px) 98%, #0000) -5px -5px, linear-gradient(90deg, #000 2px, #0000 0) -1px 50% / 100% calc(100% - 10px + 1px) repeat-x, linear-gradient(#000 2px, #0000 0) 50% -1px / calc(100% - 10px + 1px) 100% repeat-y;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+.suite-info::after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    --s: 5px;
+    --mask: radial-gradient(var(--s) at var(--s) var(--s), #0000 98%, #000) calc(-1 * var(--s)) calc(-1 * var(--s));
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .suite-title {
