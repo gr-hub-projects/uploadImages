@@ -72,9 +72,12 @@
 }
 
 .suite-title {
-    font-size: 20px;
+    color: #232629;
+    font-family: "Roboto-Thin", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.96px;
     text-transform: uppercase;
-    margin-bottom: 15px;
 }
 
 .suite-details-icons {
@@ -89,6 +92,11 @@
     align-items: center;
     font-size: 14px;
     gap: 6px;
+    color: #232629;
+    font-family: "Roboto-Thin", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.56px;
 }
 
 .icon-item img {
@@ -98,9 +106,10 @@
 }
 
 .suite-description {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.5;
+    color: #232629;
+    font-family: "EBGaramond-Regular", serif;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .suite-footer {
@@ -111,11 +120,14 @@
 }
 
 .btn-details {
-    background: none;
-    border: none;
-    color: #b46d3b;
-    font-size: 14px;
-    cursor: pointer;
+    cursor: pointer;    
+    color: #935938;
+    text-align: center;
+    font-family: "EBGaramond-Regular", serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .btn-details::before {
@@ -124,14 +136,29 @@
 }
 
 .btn-reservar {
-    background: #b46d3b;
-    color: #fff;
-    border: none;
+    background: #DEA87D;
     padding: 8px 20px;
-    font-size: 14px;
     cursor: pointer;
+    color: #072942;
+    text-align: center;
+    font-family: "EBGaramond-Regular", serif;
+    font-size: 17px;
+    font-weight: 500;
 }
 
+.infoFullCard{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.colCardFull1{
+    width: 48%;
+}
+.colCardFull2{
+    width: 48%;
+}
+.colCardFull3{
+    width: 100%;
+}
 @media (max-width: 900px) {
     .suite-card {
         grid-template-columns: 1fr;
