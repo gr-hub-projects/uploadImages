@@ -59,6 +59,7 @@ font-size: 17px;
 font-weight: 500;
 text-transform: uppercase;
 text-decoration: none;
+width: 65%;
 }
 .contXplor{
     width: 98%;
@@ -101,6 +102,7 @@ text-decoration: none;
         margin-top: 5%;
     }
 }
+
 
 
 
