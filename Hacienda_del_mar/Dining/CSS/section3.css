@@ -76,6 +76,7 @@
     font-family: "EBGaramond-Regular",serif;
     font-size: 17px;
     font-weight: 400;
+    z-index: 1;
 }
 
 .ver-detalles::before {
@@ -95,6 +96,7 @@
     font-family: "EBGaramond-Regular",serif;
     font-size: 17px;
     font-weight: 500;
+    z-index: 1;
 }
 
 .btn-reservar:hover {
