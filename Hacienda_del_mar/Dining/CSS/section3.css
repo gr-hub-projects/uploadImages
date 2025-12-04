@@ -101,6 +101,36 @@
     background-color: #a25f32;
 }
 
+.cardDining{
+    position: relative;
+}
+.cardDining::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #a36946;
+    --mask: radial-gradient(5px at 5px 5px, #0000 calc(98% - 1px), #000 calc(100% - 1px) 98%, #0000) -5px -5px, linear-gradient(90deg, #000 2px, #0000 0) -1px 50% / 100% calc(100% - 10px + 1px) repeat-x, linear-gradient(#000 2px, #0000 0) 50% -1px / calc(100% - 10px + 1px) 100% repeat-y;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+.cardDining::after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    --s: 5px;
+    --mask: radial-gradient(var(--s) at var(--s) var(--s), #0000 98%, #000) calc(-1 * var(--s)) calc(-1 * var(--s));
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
 @media (max-width: 768px) {
     .containerCardsD {
     grid-template-columns: 1fr 1fr;
