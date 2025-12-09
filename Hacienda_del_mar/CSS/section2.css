@@ -59,7 +59,7 @@
 }
 
 .habitaciones-slider > .slick-prev, .slick-next{
-    top: 95%!important;
+    top: 90%!important;
     z-index: 2;
 }
 
@@ -242,5 +242,6 @@ main#main > .standard-content-width, section.sectionClub {
     display: none;
 
 }
+
 
 
