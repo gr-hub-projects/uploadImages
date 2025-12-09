@@ -62,7 +62,7 @@
     font-size: 26px;
     font-style: italic;
     font-weight: 500;
-    line-height: 38px;
+    line-height: 1.75rem;
     letter-spacing: 1.3px;
     text-transform: uppercase;
     & span{
@@ -78,7 +78,7 @@
     font-family: "EBGaramond-Regular",serif;
     font-size: 17px;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 1.75rem;
     text-align: justify;
 }
 @media (max-width:990px) {
@@ -107,3 +107,4 @@
     }
 
 }
+
