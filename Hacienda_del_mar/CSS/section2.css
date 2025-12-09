@@ -43,7 +43,7 @@
     font-family: "EBGaramond-Regular",serif;
     font-size: 17px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.75rem;
     margin: 0;
     padding: 0;
     width: 67%;
@@ -92,7 +92,7 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 300;
-    line-height: normal;
+    line-height: 1.75rem;
     text-transform: uppercase;
     margin: 2% auto 0% -4%;
     width: 100%;
@@ -242,6 +242,7 @@ main#main > .standard-content-width, section.sectionClub {
     display: none;
 
 }
+
 
 
 
