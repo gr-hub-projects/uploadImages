@@ -14,7 +14,7 @@
     font-family: "Roboto-Thin",sans-serif;
     font-size: 26px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 1.75rem;
     text-transform: uppercase;
     & span{
         font-family: "EBGaramond-Regular",serif;
@@ -26,6 +26,7 @@
     margin: 0;
     color: #072942;
     text-align: center;
+    line-height: 1.75rem;
     font-family: "EBGaramond-Regular",serif;
     font-size: 17px;
     font-weight: 600;
@@ -37,7 +38,7 @@
     font-family: "EBGaramond-Regular",serif;
     font-size: 17px;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 1.75rem;
     text-align: center;
 }
 .colTxtWed > .contentBtnOffer{
@@ -102,6 +103,7 @@ width: 65%;
         margin-top: 5%;
     }
 }
+
 
 
 
